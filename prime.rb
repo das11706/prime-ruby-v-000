@@ -1,10 +1,11 @@
 # Add  code here!
 
 def prime?(num)
-  if num >= 2
-  (2...num).none?{|int| num % int == 0}
+  if num >= 2 && (2...num).none?{|int| num % int == 0}
   end
 end
+
+
 
 #def prime?(number)
 #number >= 2 && (2...number).none? { |n| number % n == 0 }
