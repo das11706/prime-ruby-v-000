@@ -1,7 +1,7 @@
 # Add  code here!
 
 def prime?(num)
-  if num >= 2 && (2...num).none?{|int| num % int == 0}
+  num >= 2 && (2...num).none?{|int| num % int == 0}
   end
 end
 
