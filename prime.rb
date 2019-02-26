@@ -1,8 +1,8 @@
 # Add  code here!
-require 'pry'
+#require 'pry'
 def prime?(num)
   num >= 2 && (2...num).none?{|int| num % int == 0}
-  binding.pry
+  #binding.pry
 end
 
 #none?
